@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "게임디자인실"
+  },
+  "text": {
+    "more": "\u003cp\u003e\nNORMAL 등급 제외\n\u003c/p\u003e",
+    "intro": "제노니아 무기와 각 옵션을 연결하여 네트워크 시각화를 수행함",
+    "title": "제나니아의 무기 옵션에 대한 네트워크 시각화"
+  },
+  "legend": {
+    "edgeLabel": "옵션",
+    "colorLabel": "등급",
+    "nodeLabel": "제노니아 무기"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "grade",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
